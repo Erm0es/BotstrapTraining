@@ -1,0 +1,58 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+     color:white;
+ }
+ body{
+     background-image: url(/pictures/img2.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+
+ }
+ h1{
+     font-size: 40px;
+     margin-top: 250px;
+ }
+ p{
+     font-size: 17px;
+ }
+ h3{
+     font-size: 25px;
+ }
+.col-md-5{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px rgb(82, 82, 82);
+    background: rgba(0,0,0,0.1);
+}
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 40px;
+    color:rgb(241, 236, 236);
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+}
+small{
+    font-size: 13px;
+}
+option{
+    color: rgb(102, 102, 102);
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(105, 21, 21);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}

@@ -2,21 +2,36 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color:white;
 }
 body{
-    background: rgb(219, 209, 209);
+    background-image: url(/pictures/img0.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .row{
-    background: white;
+    background: transparent;
     border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
 }
 
 img{
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    width: 100%;
 }
-
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid rgb(50, 71, 52);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    height: 40px;
+    color:rgb(241, 236, 236);
+}
 .btn1{
     border: none;
     outline: none;
@@ -28,7 +43,7 @@ img{
     font-weight: bold;
 }
 .btn1:hover{
-    background: white;
+    background: transparent;
     border: 2px solid rgb(105, 21, 21);
     color: rgb(105, 21, 21);
 }
