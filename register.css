@@ -4,10 +4,9 @@
      color:white;
  }
  body{
-     background-image: url(pictures/imgtwo.JPG);
+     background-image: url("./pictures/imgtwo.JPG");
      background-size: cover;
      background-attachment: fixed;
-
  }
  h1{
      font-size: 40px;
