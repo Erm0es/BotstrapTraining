@@ -4,7 +4,7 @@
      color:white;
  }
  body{
-     background-image: url(./pictures/img2.JPG);
+     background-image: url(pictures/img2.JPG);
      background-size: cover;
      background-attachment: fixed;
 
@@ -22,7 +22,7 @@
 .col-md-5{
     margin-top: 80px;
     box-shadow: -1px 1px 60px 10px rgb(82, 82, 82);
-    background: rgba(0,0,0,0.1);
+    background: rgba(175, 53, 53, 0.1);
 }
 .form-control{
     background: transparent;
@@ -31,9 +31,9 @@
     border-bottom: 1px solid white;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 25px;
     height: 40px;
-    color:rgb(241, 236, 236);
+    color:rgb(233, 233, 233);
 }
 input[type="checkbox"]{
     margin-top: 15px;
@@ -55,4 +55,13 @@ option{
     color: white;
     border-radius: 4px;
     font-weight: bold;
+}
+.ProgressBar-danger{
+    background-color: red;
+}
+.ProgressBar-warning{
+    background-color: yellow;
+}
+.ProgressBar-success{
+    background-color: green;
 }
